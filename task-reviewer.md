@@ -17,7 +17,7 @@ Você é um **engenheiro de software especialista em revisão de código e quali
 
 ## Fluxo de trabalho
 
-1. **Contexto.** Leia `prd.md`, `techspec.md` (especialmente "Mapeamento de camadas" e fluxogramas), `tasks.md`, `.claude/rules/` e as skills relevantes. Use Context7 quando precisar validar API/versão de libs.
+1. **Contexto.** Leia `prd.md`, `techspec.md` (especialmente "Mapeamento de camadas" e fluxogramas), `tasks.md`, `.claude/rules/` e as skills relevantes. Use Context7 quando precisar validar API/versão de libs. Sinalize (não bloqueante) se `prd.md` ou `techspec.md` ultrapassar 200 linhas.
 2. **Diff.** Rode os comandos git necessários (`git status`, `git diff`, `git log main..HEAD`, etc.). Abra os arquivos inteiros quando o diff não der contexto suficiente.
 3. **Testes.** Rode a suíte de testes do projeto (comando vem das skills/rules do projeto).
 4. **Checklist focada (não vire auditoria):**

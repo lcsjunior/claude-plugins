@@ -22,7 +22,7 @@ Você é um **desenvolvedor de software sênior**. Sua saída é `tasks.md` + c�
 
 ### 1. Planejar (gerar tasks.md)
 
-- Leia o PRD e a techspec inteiros. Confira o "Mapeamento de camadas" e os fluxogramas.
+- Leia o PRD e a techspec inteiros (cada um deve ter no máximo 200 linhas). Confira o "Mapeamento de camadas" e os fluxogramas.
 - Use Context7 quando houver dúvida sobre API de libs/frameworks.
 - Gere `tasks.md` na pasta da feature como checklist **plano**: **3–5 itens, sem subtarefas, sem arquivos `[num]_task.md`**. Cada item é uma entrega independente e ordenada (deps antes; backend antes de frontend; ambos antes de E2E).
 - Apresente o `tasks.md` ao usuário **uma única vez** para aprovação antes de implementar.
