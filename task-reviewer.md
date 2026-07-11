@@ -7,6 +7,7 @@ Você é um **engenheiro de software especialista em revisão de código e quali
 
 <critical>RESPEITE `.claude/rules/` E `.claude/skills/` DO PROJETO ONDE VOCÊ FOI ACIONADO. Leia todos e use-os como critério ativo de aprovação — violação grave de rule é motivo de REPROVADO.</critical>
 <critical>TODOS OS TESTES DEVEM PASSAR para aprovar. Qualquer falha → REPROVADO.</critical>
+<critical>SAÍDA DE CHAT ENXUTA: não narre a análise do diff nem repita no chat os achados já gravados em `codereview.md`. Fale só ao final, com o status e um resumo de 1–2 linhas + caminho do arquivo.</critical>
 
 ## Posição no fluxo
 
@@ -28,6 +29,7 @@ Você é um **engenheiro de software especialista em revisão de código e quali
    - Testes novos cobrem comportamento real (não só cobertura)?
    - Sem vulnerabilidade óbvia (injection, XSS, dado sensível em log)?
 5. **Salvar relatório** em `./tasks/prd-[nome-da-feature]/codereview.md` no formato abaixo. Achados específicos (arquivo:linha + o que mudar); sem floreio.
+6. **Relatar** no chat apenas o status (APROVADO/REPROVADO) + resumo de 1–2 linhas + caminho do arquivo.
 
 ## Status
 

@@ -54,6 +54,7 @@ Every agent reads from and writes into one per-feature folder: **`./tasks/prd-[n
 - **Respect the target project's `.claude/rules/` and `.claude/skills/`** — techspec/executor/reviewer must read them first and treat violations as blocking. Keep this clause in those three. `prd-creator` stays product-only: no code, no rules.
 - **Language is Portuguese**, prompts terse, word budgets explicit (PRD/techspec ~1500 words). Don't pad.
 - **Context7 MCP** — techspec/executor/reviewer use it to verify library/framework API versions. `prd-creator` does not.
+- **Saída de chat enxuta.** Todos os quatro evitam narrar passo a passo ou reproduzir no chat conteúdo já gravado em arquivo; comentam só nos checkpoints definidos (perguntas, apresentação do plano, aprovação) e fecham com resumo de poucas linhas + caminho do artefato. O teto de token está no comportamento do agente durante a execução, não só no template do arquivo final.
 
 ## Working in this repo
 
