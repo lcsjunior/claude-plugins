@@ -1,0 +1,10 @@
+{
+  "name": "do",
+  "description": "Generic Claude Code agents, skills, and commands.",
+  "version": "1.0.0",
+  "author": {
+    "name": "lcsjunior"
+  },
+  "repository": "https://github.com/lcsjunior/claude-plugins",
+  "license": "MIT"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "lcsjunior",
+  "description": "Personal Claude Code plugin marketplace.",
+  "owner": {
+    "name": "lcsjunior",
+    "url": "https://github.com/lcsjunior"
+  },
+  "plugins": [
+    {
+      "name": "sdd",
+      "source": "./plugins/sdd",
+      "description": "Spec-Driven Development flow (pt-BR): prd-creator, techspec-creator, task-executor, task-reviewer."
+    },
+    {
+      "name": "do",
+      "source": "./plugins/do",
+      "description": "Generic Claude Code agents, skills, and commands."
+    }
+  ]
+}

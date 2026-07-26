@@ -1,0 +1,10 @@
+{
+  "name": "sdd",
+  "description": "Pipeline Spec-Driven Development em pt-BR: prd-creator, techspec-creator, task-executor e task-reviewer.",
+  "version": "1.0.0",
+  "author": {
+    "name": "lcsjunior"
+  },
+  "repository": "https://github.com/lcsjunior/claude-agents",
+  "license": "MIT"
+}
