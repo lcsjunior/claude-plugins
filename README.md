@@ -12,8 +12,8 @@ Then run `/reload-plugins` in Claude Code.
 
 ## Plugins
 
-- **`sdd`** — Spec-Driven Development flow: `/sdd:prd`, `/sdd:techspec`, `/sdd:execute`, `/sdd:review`, `/sdd:commit-conventional`.
-- **`do`** — generic catch-all (`/do:*`). Empty for now.
+- **`sdd`** — Spec-Driven Development flow: `/sdd:prd`, `/sdd:techspec`, `/sdd:execute`, `/sdd:review`.
+- **`do`** — generic catch-all: `/do:commit-conventional`.
 
 ## Recommended extras
 
