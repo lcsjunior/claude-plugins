@@ -15,6 +15,14 @@ Then run `/reload-plugins` in Claude Code.
 - **`sdd`** — Spec-Driven Development flow: `/sdd:prd`, `/sdd:techspec`, `/sdd:execute`, `/sdd:review`, `/sdd:commit-conventional`.
 - **`do`** — generic catch-all (`/do:*`). Empty for now.
 
+## Recommended extras
+
+| Tool | What it does | Install |
+| --- | --- | --- |
+| `/fewer-permission-prompts` | Builds a Bash allowlist from your history to cut permission prompts | Built-in — just run it |
+| `/skill-creator` | Create, edit, and test skills | Built-in — just run it |
+| `/context7-mcp` | Up-to-date library/framework docs (Context7) | `npx ctx7 setup` |
+
 ## Add a plugin
 
 1. Create `plugins/<name>/` with `.claude-plugin/plugin.json` and any `agents/`, `commands/`, `skills/`.
