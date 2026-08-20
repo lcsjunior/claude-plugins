@@ -18,9 +18,10 @@ Then run `/reload-plugins` in Claude Code.
 
 | Tool | What it does | Install |
 | --- | --- | --- |
-| `/fewer-permission-prompts` | Builds a Bash allowlist from your history to cut permission prompts | Built-in — just run it |
-| `/skill-creator` | Create, edit, and test skills | Built-in — just run it |
-| `/context7-mcp` | Up-to-date library/framework docs (Context7) | `npx ctx7 setup` |
+| `/skill-creator` | Create, edit, and test skills | See [anthropics/skills](https://github.com/anthropics/skills) |
+| `/context7-mcp` | Up-to-date library/framework docs (Context7) | [context7.com](https://context7.com/) |
+
+[anthropics/skills](https://github.com/anthropics/skills) also documents how to install Anthropic's official skills plugin.
 
 ## Add a plugin
 
