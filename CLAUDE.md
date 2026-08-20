@@ -6,17 +6,16 @@ Personal **Claude Code plugin marketplace**, not an app. Root is the marketplace
 .claude-plugin/marketplace.json
 install.sh
 plugins/
-├── sdd/   # Spec-Driven Development flow (pt-BR)
-└── do/    # generic catch-all
+└── do/    # generic catch-all, including the Spec-Driven Development flow (pt-BR)
 ```
 
-Plugin commands/skills are namespaced by plugin name (`/sdd:*`, `/do:*`) — no way to drop the prefix.
+Plugin commands/skills are namespaced by plugin name (`/do:*`) — no way to drop the prefix.
 
 ## Add a plugin
 
 Create `plugins/<name>/.claude-plugin/plugin.json` (+ `agents/`, `commands/`, `skills/`), add an entry to `marketplace.json` (`"source": "./plugins/<name>"`), and add the name to `PLUGINS` in `install.sh`.
 
-## The `sdd` plugin
+## The Spec-Driven Development (SDD) flow, inside `do`
 
 Four subagents run in order, each consuming the previous artifact into `./tasks/prd-[feature]/` of the target project:
 

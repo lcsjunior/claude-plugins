@@ -7,14 +7,9 @@
   },
   "plugins": [
     {
-      "name": "sdd",
-      "source": "./plugins/sdd",
-      "description": "Spec-Driven Development flow (pt-BR): prd-creator, techspec-creator, task-executor, task-reviewer."
-    },
-    {
       "name": "do",
       "source": "./plugins/do",
-      "description": "Generic Claude Code agents, skills, and commands."
+      "description": "Generic Claude Code agents, skills, and commands, including a Spec-Driven Development flow (pt-BR): prd-creator, techspec-creator, task-executor, task-reviewer."
     }
   ]
 }

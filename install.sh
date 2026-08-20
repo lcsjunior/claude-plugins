@@ -7,7 +7,6 @@ MARKETPLACE_NAME="lcsjunior"
 
 # All plugins in this repo. Add new plugin names here as the marketplace grows.
 PLUGINS=(
-  sdd
   do
 )
 

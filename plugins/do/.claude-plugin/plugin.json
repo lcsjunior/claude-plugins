@@ -1,6 +1,6 @@
 {
   "name": "do",
-  "description": "Generic Claude Code agents, skills, and commands.",
+  "description": "Generic Claude Code agents, skills, and commands, including a Spec-Driven Development flow (pt-BR).",
   "version": "1.0.0",
   "author": {
     "name": "lcsjunior"
