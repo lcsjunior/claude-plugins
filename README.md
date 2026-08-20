@@ -18,7 +18,7 @@ Then run `/reload-plugins` in Claude Code.
 
 | Tool | What it does | Install |
 | --- | --- | --- |
-| `/skill-creator` | Create, edit, and test skills | See [anthropics/skills](https://github.com/anthropics/skills) |
+| `/skill-creator` | Create, edit, and test skills | [anthropics/skills](https://github.com/anthropics/skills) |
 | `/context7-mcp` | Up-to-date library/framework docs (Context7) | [context7.com](https://context7.com/) |
 
 [anthropics/skills](https://github.com/anthropics/skills) also documents how to install Anthropic's official skills plugin.
