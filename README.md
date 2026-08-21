@@ -20,6 +20,8 @@ Then run `/reload-plugins` in Claude Code.
 | --- | --- | --- |
 | `/skill-creator` | Create, edit, and test skills | [anthropics/skills](https://github.com/anthropics/skills) |
 | `/context7-mcp` | Up-to-date library/framework docs (Context7) | [context7.com](https://context7.com/) |
+| `/create-readme` | Create a README.md for the project | [claudemarketplaces.com](https://claudemarketplaces.com/skills/github/awesome-copilot/create-readme) |
+| `/commit` | Sentry-style conventional commits with issue references | [claudemarketplaces.com](https://claudemarketplaces.com/skills/getsentry/skills/commit) |
 
 [anthropics/skills](https://github.com/anthropics/skills) also documents how to install Anthropic's official skills plugin.
 
